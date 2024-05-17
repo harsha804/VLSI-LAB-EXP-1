@@ -36,7 +36,10 @@ STEP:12 On the board, by giving required input, the LEDs starts to glow light, i
 
 **Logic Diagram :**
 
+
 **Logic Gates:**
+
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
 
@@ -212,6 +215,8 @@ fa fa8(a[7],b[7],c7,sum[7],cout);
 endmodule
 
 **OUTPUT:**
+
+
 **Logic gates:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-1/assets/122807039/590799fc-cf21-4561-925b-0a16e50ef9e7)
 
