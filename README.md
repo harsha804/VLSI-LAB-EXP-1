@@ -9,6 +9,7 @@ To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 Xilinx 14.7 Spartan6 FPGA
 
 **PROCEDURE:**
+
 STEP:1 Start the Xilinx navigator, Select and Name the New project. 
 
 STEP:2 Select the device family, device, package and speed.
@@ -92,7 +93,9 @@ endmodule
 
 **HALF ADDER:**
 
+
 module HalfAdder(a,b,sum,carry);
+
 input a,b;
 
 output sum,carry;
@@ -127,6 +130,7 @@ endmodule
 
 **HALF SUBTRACTOR:**
 
+
 module halfsubtractor(a,b,diff,borrow);
 
 input a,b;
@@ -140,6 +144,7 @@ and g2(borrow,~a,b);
 endmodule
 
 **FULL SUBTRACTOR:**
+
 
 module full_sub(a,b,bin,diff,borrow);
 
@@ -162,6 +167,7 @@ and g5(w3,~w1,bin);
 endmodule
 
 **8 BIT RIPPLE CARRY ADDER:**
+
 
 module fa(a,b,c,sum,carry);
 
@@ -225,5 +231,6 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-1/assets/122807039/e07832a6-5e10-4ac2-a0ce-f890f52c4617)
 
 **RESULT:**
+
 Thus the program is verified successfully
 
